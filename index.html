@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Yuanshuai Li</title>
+
+  <meta name="description"
+        content="Yuanshuai Li - M.Sc. Student at Shenzhen University. Research interests include large language models, efficient edge AI.">
+
+  <style>
+    :root {
+      --text: #222;
+      --secondary: #666;
+      --light: #888;
+      --border: #e5e5e5;
+      --link: #245a8d;
+      --background: #ffffff;
+      --max-width: 820px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      background: var(--background);
+      color: var(--text);
+      font-family:
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Helvetica,
+        Arial,
+        sans-serif;
+      font-size: 16px;
+      line-height: 1.65;
+    }
+
+    .container {
+      width: min(92%, var(--max-width));
+      margin: 0 auto;
+      padding: 55px 0 70px;
+    }
+
+    header {
+      margin-bottom: 42px;
+    }
+
+    .name {
+      margin: 0 0 6px;
+      font-size: 2.2rem;
+      font-weight: 600;
+      letter-spacing: -0.03em;
+    }
+
+    .subtitle {
+      margin: 0;
+      color: var(--secondary);
+      font-size: 1.05rem;
+    }
+
+    .contact {
+      margin-top: 10px;
+      font-size: 0.95rem;
+      color: var(--secondary);
+    }
+
+    a {
+      color: var(--link);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    nav {
+      margin-top: 18px;
+      font-size: 0.95rem;
+    }
+
+    nav a {
+      margin-right: 18px;
+      color: var(--secondary);
+    }
+
+    section {
+      margin-bottom: 38px;
+    }
+
+    h2 {
+      margin: 0 0 16px;
+      padding-bottom: 6px;
+      border-bottom: 1px solid var(--border);
+      font-size: 1.28rem;
+      font-weight: 600;
+    }
+
+    p {
+      margin: 0 0 12px;
+    }
+
+    .item {
+      margin-bottom: 23px;
+    }
+
+    .item:last-child {
+      margin-bottom: 0;
+    }
+
+    .item-header {
+      display: flex;
+      justify-content: space-between;
+      gap: 20px;
+      align-items: baseline;
+    }
+
+    .item-title {
+      font-weight: 600;
+    }
+
+    .item-date {
+      white-space: nowrap;
+      color: var(--light);
+      font-size: 0.92rem;
+    }
+
+    .item-subtitle {
+      margin-top: 2px;
+      color: var(--secondary);
+      font-size: 0.96rem;
+    }
+
+    ul {
+      margin: 8px 0 0 20px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 5px;
+    }
+
+    .publication {
+      margin-bottom: 16px;
+    }
+
+    .pub-title {
+      font-weight: 600;
+    }
+
+    .authors {
+      color: var(--secondary);
+    }
+
+    .venue {
+      margin-top: 2px;
+      font-style: italic;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tag {
+      padding: 3px 9px;
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      color: var(--secondary);
+      font-size: 0.9rem;
+    }
+
+    footer {
+      margin-top: 55px;
+      padding-top: 18px;
+      border-top: 1px solid var(--border);
+      color: var(--light);
+      font-size: 0.88rem;
+    }
+
+    @media (max-width: 600px) {
+      .container {
+        padding-top: 35px;
+      }
+
+      .name {
+        font-size: 1.9rem;
+      }
+
+      .item-header {
+        display: block;
+      }
+
+      .item-date {
+        display: block;
+        margin-top: 2px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin-bottom: 6px;
+      }
+    }
+  </style>
+</head>
+
+
+<body>
+
+<div class="container">
+
+  <!-- ================= Header ================= -->
+
+  <header>
+    <h1 class="name">Yuanshuai Li</h1>
+
+    <p class="subtitle">
+      M.Sc. Student · Shenzhen University
+    </p>
+
+    <div class="contact">
+      Shenzhen, China ·
+      <a href="mailto:2600101012@mails.szu.edu.cn">
+        2600101012@mails.szu.edu.cn
+      </a>
+      <!-- Add your GitHub / Google Scholar links here later -->
+    </div>
+
+    <nav>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#education">Education</a>
+      <a href="#skills">Skills</a>
+    </nav>
+  </header>
+
+
+  <!-- ================= About ================= -->
+
+  <section id="about">
+    <h2>About</h2>
+
+    <p>
+      I am an M.Sc. student at Shenzhen University. I am currently advised by <a href="https://qihuazhou.github.io/">Prof. Qihua Zhou </a>.
+      I received my B.Eng. degree in Computer Science and Engineering
+      with First Class Honours from
+      The Chinese University of Hong Kong, Shenzhen (CUHK-Shenzhen)
+      in 2026.
+    </p>
+
+    <p>
+      My research interests broadly lie in
+      <strong>large language models</strong>,
+      <strong>reinforcement learning</strong>, and
+      <strong>efficient edge AI</strong>.
+    </p>
+  </section>
+
+
+  <!-- ================= Research Interests ================= -->
+
+  <section>
+    <h2>Research Interests</h2>
+
+    <div class="tags">
+      <span class="tag">Large Language Models</span>
+      <span class="tag">Efficient Edge AI</span>
+    </div>
+  </section>
+
+
+  <!-- ================= Publications ================= -->
+
+  <section id="publications">
+    <h2>Publications</h2>
+
+    <div class="publication">
+      <div class="pub-title">
+        <a href="https://proceedings.neurips.cc/paper_files/paper/2025/hash/8bfbf4ec87e1e331f0b1adc483b53b6b-Abstract-Conference.html">
+        SWE-SQL: Illuminating LLM Pathways to Solve User SQL Issues
+        in Real-World Applications
+        </a>
+      </div>
+
+      <div class="authors">
+        Jinyang Li, Xiaolong Li, Ge Qu, ..., <strong>Yuanshuai Li</strong>, et al.
+      </div>
+
+      <div class="venue">
+        NeurIPS 2025 Main Conference
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ================= Research Experience ================= -->
+
+  <section id="research">
+    <h2>Research Experience</h2>
+
+
+    <div class="item">
+
+      <div class="item-header">
+        <div class="item-title">
+          In-Context Reinforcement Learning
+        </div>
+
+        <div class="item-date">
+          Jun 2025 – Aug 2025
+        </div>
+      </div>
+
+      <div class="item-subtitle">
+        Research Assistant · Shenzhen, China
+      </div>
+
+      <ul>
+        <li>
+          Conducted a survey of supervised-pretraining approaches to
+          in-context reinforcement learning, covering Algorithm
+          Distillation, DPT, IDT, and ICEE.
+        </li>
+
+        <li>
+          Reproduced the Decision-Pretrained Transformer (DPT) and
+          performed small-scale experiments involving trajectory
+          construction and Transformer-based decision policies.
+        </li>
+
+        <li>
+          Investigated challenges including long-context computation,
+          data efficiency, exploration, and theoretical guarantees.
+        </li>
+      </ul>
+
+    </div>
+
+
+    <div class="item">
+
+      <div class="item-header">
+        <div class="item-title">
+          BIRD2025 / SWE-SQL LLM–Database Project
+        </div>
+
+        <div class="item-date">
+          Oct 2024 – Feb 2025
+        </div>
+      </div>
+
+      <div class="item-subtitle">
+        Research Assistant · Shenzhen, China
+      </div>
+
+      <ul>
+        <li>
+          Contributed to a benchmark for evaluating how large language
+          models solve real-world database problems across MySQL,
+          PostgreSQL, and Oracle.
+        </li>
+
+        <li>
+          Curated, solved, and validated more than 100 challenging
+          Stack Overflow cases covering diverse SQL errors and
+          database scenarios.
+        </li>
+
+        <li>
+          Designed executable tests to evaluate the correctness of
+          model-generated solutions.
+        </li>
+      </ul>
+
+    </div>
+
+
+    <div class="item">
+
+      <div class="item-header">
+        <div class="item-title">
+          Data Space Testbed Development
+        </div>
+
+        <div class="item-date">
+          Jun 2024 – Sep 2024
+        </div>
+      </div>
+
+      <div class="item-subtitle">
+        Core Developer · Shenzhen, China
+      </div>
+
+      <ul>
+        <li>
+          Studied International Data Spaces Association specifications
+          and interactions among DAPS, certificate authorities, and
+          connector components.
+        </li>
+
+        <li>
+          Built a Python/Docker testing environment and designed
+          authentication and authorization tests for core data-space
+          components.
+        </li>
+      </ul>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= Education ================= -->
+
+  <section id="education">
+    <h2>Education</h2>
+
+
+    <div class="item">
+
+      <div class="item-header">
+        <div class="item-title">
+          Shenzhen University
+        </div>
+
+        <div class="item-date">
+          2026 – Present
+        </div>
+      </div>
+
+      <div class="item-subtitle">
+        M.Sc. Student · Shenzhen, China
+      </div>
+
+    </div>
+
+
+    <div class="item">
+
+      <div class="item-header">
+        <div class="item-title">
+          The Chinese University of Hong Kong, Shenzhen
+        </div>
+
+        <div class="item-date">
+          Sep 2022 – Jul 2026
+        </div>
+      </div>
+
+      <div class="item-subtitle">
+        B.Eng. in Computer Science and Engineering · First Class Honours
+      </div>
+
+      <ul>
+        <li>GPA: 3.699 / 4.000</li>
+
+        <li>
+          Dean's List for three consecutive academic years
+          (2022–2025)
+        </li>
+
+        <li>Entrance Scholarship</li>
+      </ul>
+
+    </div>
+
+  </section>
+
+
+  <!-- ================= Skills ================= -->
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+
+    <p>
+      <strong>Programming:</strong>
+      Python, Java, C++
+    </p>
+
+    <p>
+      <strong>Machine Learning:</strong>
+      PyTorch, TensorFlow, Transformers, Reinforcement Learning
+    </p>
+
+    <p>
+      <strong>Tools & Systems:</strong>
+      Linux, Docker, Git, Google Colab
+    </p>
+
+    <p>
+      <strong>Databases:</strong>
+      MySQL, PostgreSQL, SQL Benchmarking
+    </p>
+
+  </section>
+
+
+  <!-- ================= Footer ================= -->
+
+  <footer>
+    © 2026 Yuanshuai Li
+  </footer>
+
+</div>
+
+</body>
+</html>
